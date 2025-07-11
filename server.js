@@ -22,5 +22,5 @@ app.use('/api/image', uploadImageRoutes);
 
 
 app.listen(PORT , () => {
-    console.log(`Server is running on port ${PORT}, http://localhost:3000`);
+    console.log(`Server is running on port ${PORT}`);
 });
